@@ -1,11 +1,11 @@
-#  Desafio Bootcamp Code Girl 2025 – Instâncias EC2
+#  Desafio Bootcamp Code Girl 2025 – Instância EC2
 
 Este repositório faz parte de um desafio do Bootcamp Code Girl 2025, com foco em compreender e representar graficamente os principais serviços de infraestrutura da Amazon Web Services (AWS).  
 
 O objetivo deste desafio é explorar conceitos de computação em nuvem, utilizando diagramas criados no Draw.io para visualizar a arquitetura e o funcionamento dos recursos EC2, EBS e S3.  
 
 ---
-## Diagrama 1 — EC2 com EBS e RDS
+## Diagrama 1
 
 
 ### Descrição do Fluxo
@@ -18,7 +18,7 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem, utiliza
    - O **Disco E (EBS)** atua como armazenamento de saída, guardando os resultados processados.
 4. **RDS (Relational Database Service)**:  
    - Mantém os dados estruturados e persistentes, como logs, metadados ou resultados processados.
-5. Todo o ambiente está hospedado dentro da **nuvem AWS**, garantindo escalabilidade e segurança.
+5. Todo o ambiente está hospedado dentro da nuvem AWS, garantindo escalabilidade e segurança.
 
 ### Serviços AWS Utilizados
 
@@ -30,7 +30,7 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem, utiliza
 
 ---
 
-## Diagrama 2 — S3, Lambda e DynamoDB
+## Diagrama 2
 
 
 ### Descrição do Fluxo
@@ -38,10 +38,10 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem, utiliza
 1. **Sistema de Arquivos (Usuário ou Aplicação)**:  
    - Gera ou disponibiliza o arquivo que será enviado.
 2. **Amazon S3 (Simple Storage Service)**:  
-   - O arquivo é transferido via **AWS CLI** ou **Transfer File** para um bucket S3.
+   - O arquivo é transferido via AWS CLI ou Transfer File para um bucket S3.
    - O upload de um novo arquivo aciona automaticamente um evento *trigger*.
 3. **AWS Lambda (Função Serverless)**:  
-   - Desenvolvida em **Node.js**, **.NET Core** ou **Python**.  
+   - Desenvolvida em Node.js, .NET Core ou Python.  
    - É executada automaticamente quando ocorre um novo upload no S3.
    - Processa o conteúdo do arquivo e extrai informações relevantes.
 4. **Amazon DynamoDB**:  
@@ -62,9 +62,9 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem, utiliza
 ##  Objetivo do projeto
 
 Este desafio tem como finalidade:  
-- Reforçar o entendimento sobre a **arquitetura dos serviços da AWS**;  
-- Exercitar a **documentação visual de soluções em nuvem**;  
-- Promover boas práticas de **organização e versionamento de artefatos técnicos** usando o **GitHub**.  
+- Reforçar o entendimento sobre a arquitetura dos serviços da AWS;  
+- Exercitar a documentação visual de soluções em nuvem;  
+- Promover boas práticas de organização e versionamento de artefatos técnicos usando o GitHub.  
 
 ---
 
@@ -78,6 +78,6 @@ Este desafio tem como finalidade:
 
 ## Próximos passos
 
-- Criar novos diagramas explorando outros serviços AWS (como VPC, RDS e Lambda);  
+- Criar novos diagramas explorando outros serviços AWS;  
 - Aprimorar a documentação com descrições mais detalhadas das conexões entre recursos;  
 - Adicionar anotações explicativas dentro dos diagramas.  
