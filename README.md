@@ -7,7 +7,7 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem**, utili
 ---
 ## Diagrama 1 — EC2 com EBS e RDS
 
-![EBS Diagram](EBS.png)
+![image](EBS.png)
 
 ### Descrição do Fluxo
 
