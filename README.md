@@ -2,7 +2,7 @@
 
 Este repositório faz parte de um desafio do Bootcamp Code Girl 2025, com foco em compreender e representar graficamente os principais serviços de infraestrutura da Amazon Web Services (AWS).  
 
-O objetivo deste desafio é explorar conceitos de computação em nuvem**, utilizando diagramas criados no Draw.io para visualizar a arquitetura e o funcionamento dos recursos EC2, EBS e S3.  
+O objetivo deste desafio é explorar conceitos de computação em nuvem, utilizando diagramas criados no Draw.io para visualizar a arquitetura e o funcionamento dos recursos EC2, EBS e S3.  
 
 ---
 ## Diagrama 1 — EC2 com EBS e RDS
