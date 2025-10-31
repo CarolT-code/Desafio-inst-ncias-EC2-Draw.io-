@@ -7,7 +7,6 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem**, utili
 ---
 ## Diagrama 1 — EC2 com EBS e RDS
 
-![image](EBS.png)
 
 ### Descrição do Fluxo
 
@@ -33,7 +32,6 @@ O objetivo deste desafio é explorar conceitos de computação em nuvem**, utili
 
 ## Diagrama 2 — S3, Lambda e DynamoDB
 
-(S3.png)
 
 ### Descrição do Fluxo
 
